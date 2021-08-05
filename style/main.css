@@ -1,0 +1,65 @@
+/* DECLARAÇÃO DE VARIÁVEIS EM CSS */
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+/* RESET CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+    /*elementos não vão romper o tamanho da caixa */
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    /* têndencia de arrumar tudo em linha */
+    display:  flex;
+    align-items: center;
+
+
+}
+
+
+
+header .logo {
+    margin-left: 80px;
+    color: var(--vermelho);
+    font-family: "Arial Black" , Times, serif;
+    font-size: 45px;
+
+
+}
+
+header nav {
+    margin-left: 50px;
+}
+
+header nav a {
+    margin-left: px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+
+}
+
+header nav a:hover {
+    color: #AAA;
+}
+
+/*FILME PRINCIPAL*/
+.filme-principal{
+    font-size: 16px;
+    background-color: yellow;
+    background: url('/img/fundo.jpg');
+    height: 400px;
+    background-size: cover;
+}
