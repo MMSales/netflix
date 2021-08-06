@@ -16,7 +16,7 @@
 
 body {
     background-color: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -60,7 +60,7 @@ header nav a:hover {
     font-size: 16px;
     display: flex;
     background: linear-gradient(rgba(0,0,0,.50) , rgba(0,0,0,.50)100%), url('../img/fundo.jpg');
-    height: 440px;
+    height: 490px;
     background-size: cover;
     flex-direction: column;
     justify-content: center;
